@@ -17,7 +17,7 @@ $ yarn add --dev goddamn-javascript-config
 $ node_modules/.bin/goddamn-javascript-config
 ```
 
-Last step inits a `.babelrc` and an '.eslintrc' for you.
+Last step inits a `.babelrc` and an `.eslintrc` for you.
 
 # Contributing
 
