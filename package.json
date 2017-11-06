@@ -1,6 +1,6 @@
 {
   "name": "goddamn-javascript-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "scripts": {
     "test": "babel sample.js"
