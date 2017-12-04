@@ -5,7 +5,7 @@ to get state of the art linting and formatting and they all change versions and 
 in various different ways eventually.
 
 This is just one module to install that locks all deps and brings you to latest
-babel level and eslint rules with standard (supports prettier) to solve
+babel level and eslint rules with ALL [standard](http://standardjs.com) and [eslint](http://eslint.org/) and [prettier](https://github.com/prettier) working together to solve
 Javascript config once and for all.
 
 ## Quick Start
@@ -17,7 +17,7 @@ $ yarn add --dev goddamn-javascript-config
 $ node_modules/.bin/goddamn-javascript-config
 ```
 
-Last step inits a `.babelrc` and an '.eslintrc' for you.
+Last step inits a `.babelrc` and an `.eslintrc` for you.
 
 # Contributing
 
