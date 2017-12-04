@@ -1,12 +1,35 @@
+import React, { Component } from 'react'
 const express = require('express')
 const { getUser } = require('./user')
 const { action, ServiceError, resource } = require('../../src')
 const { extract } = require('hyperparams')
 
+const Some = null
+const JSX = null
 const projectParams = extract('', ['name'])
+class FooComponent extends Component {
+  render() {
+    return (
+      <Some foo="bar" val={1}>
+        {true && (
+          <div>
+            hello const projects = await user.getProjects() return
+            res.json(projects)
+          </div>
+        )}
+        <JSX />
+      </Some>
+    )
+  }
+}
+
 class ProjectsController {
   // class property
   foo = () => {}
+
+  render() {
+    return <FooComponent />
+  }
 
   @action()
   static async index({ user }, res, next) {
@@ -68,6 +91,7 @@ class ProjectsController {
 
     const mount = express.Router()
     mount.use('/projects', getUser, router)
+
     return mount
   }
 }

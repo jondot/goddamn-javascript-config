@@ -1,8 +1,21 @@
 {
   "plugins": [
-    "transform-runtime",
-    "transform-class-properties",
-    "transform-decorators-legacy"
+    "@babel/transform-runtime",
+    "@babel/proposal-class-properties",
+    "@babel/proposal-decorators",
+    "@babel/transform-modules-commonjs"
   ],
-  "presets": ["es2015", "stage-0", "react"]
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "node": "6.0"
+        }
+      }
+    ],
+
+    "@babel/react",
+    "@babel/stage-0"
+  ]
 }
