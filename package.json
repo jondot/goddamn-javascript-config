@@ -1,6 +1,6 @@
 {
   "name": "goddamn-javascript-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "license": "MIT",
   "scripts": {
     "test": "babel sample.js"
@@ -34,10 +34,10 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.4.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "@babel/runtime": "^7.0.0-beta.40"
   },
   "devDependencies": {
-    "@babel/runtime": "^7.0.0-beta.40",
     "standard": "^10.0.3"
   }
 }
