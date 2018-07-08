@@ -4,6 +4,8 @@ const { getUser } = require('./user')
 const { action, ServiceError, resource } = require('../../src')
 const { extract } = require('hyperparams')
 
+const f = 1
+
 const Some = null
 const JSX = null
 const projectParams = extract('', ['name'])
@@ -25,7 +27,7 @@ class FooComponent extends Component {
 
 class ProjectsController {
   // class property
-  foo = () => {}
+  foo = () => { }
 
   render() {
     return <FooComponent />
