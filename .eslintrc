@@ -1,19 +1,11 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "standard",
-    "standard-flow",
-    "standard-jsx",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier",
-    "prettier/flowtype",
-    "prettier/react",
-    "prettier/standard"
+    "airbnb",
+    "prettier"
   ],
   "plugins": [
-    "prettier",
-    "standard"
+    "prettier"
   ],
   "rules": {
     "prettier/prettier": [
