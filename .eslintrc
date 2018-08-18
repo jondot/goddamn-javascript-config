@@ -1,22 +1,19 @@
 {
   "parser": "babel-eslint",
   "extends": [
-    "plugin:jest/recommended",
-    "plugin:flowtype/recommended",
     "airbnb",
-    "prettier",
-    "prettier/react"
+    "prettier"
+  ],
+  "plugins": [
+    "jest",
+    "flowtype",
+    "prettier"
   ],
   "settings": {
     "flowtype": {
       "onlyFilesWithFlowAnnotation": false
     }
   },
-  "plugins": [
-    "jest",
-    "flowtype",
-    "prettier"
-  ],
   "rules": {
     "prettier/prettier": [
       "error",

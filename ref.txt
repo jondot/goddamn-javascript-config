@@ -1,1 +1,2 @@
 https://github.com/marcelmokos/eslint-config-with-prettier/blob/master/src/.eslintrc.js
+https://bitbucket.org/atlassian/atlaskit-mk-2/src/master/.eslintrc.json
